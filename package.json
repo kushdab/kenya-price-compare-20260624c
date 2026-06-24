@@ -1,0 +1,12 @@
+{
+  "name": "kenya-price-compare-20260624c",
+  "version": "1.0.0",
+  "description": "Browser extension for price comparison in Kenya",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ecommerce", "kenya", "jumia", "kilimall", "shopping"],
+  "author": "",
+  "license": "MIT"
+}
