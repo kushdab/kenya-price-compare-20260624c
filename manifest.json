@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Kenya Price Compare 2026",
+  "version": "1.0.0",
+  "description": "Compare prices between Jumia, Kilimall, and Sky Garden automatically.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.jumia.co.ke/*",
+        "*://*.kilimall.co.ke/*",
+        "*://*.sky.garden/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
